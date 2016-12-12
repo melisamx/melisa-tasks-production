@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
     
-    grunt.registerTask('respositories:union', 'Union repositories to diretory app', function() {
+    grunt.registerTask('repositories:union', 'Union repositories to diretory app', function() {
         
         var repositories = grunt.config.get('pkg.repositories'),
             copy = grunt.config.get('copy') || {},

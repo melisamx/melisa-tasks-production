@@ -4,8 +4,8 @@ module.exports = function(grunt) {
         
         grunt.task.run([
             'clean:test',
-            'respositories:clone',
-            'respositories:union',
+            'repositories:clone',
+            'repositories:union',
             'production:javascript',
             'production:css'
         ]);
