@@ -1,0 +1,7 @@
+nbproject
+/node_modules
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+composer.lock
