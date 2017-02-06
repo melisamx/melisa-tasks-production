@@ -4,11 +4,17 @@ module.exports = function(grunt) {
         
         var repositories = grunt.config.get('pkg.repositories'),
             copy = grunt.config.get('copy') || {},
-            dirName;
+            dirName,
+            urlRepository;
         
         for(var i in repositories) {
             
-            dirName = repositories[i].substr(repositories[i].lastIndexOf('/') + 1).replace('.git', '');
+            if(typeof repositories[i] === 'string') {
+                urlRepository = repositories[i];
+            } else {
+                urlRepository = repositories[i].url;
+            }
+            dirName = urlRepository.substr(urlRepository.lastIndexOf('/') + 1).replace('.git', '');
             
             copy [dirName]= {
                 files: [

@@ -3,12 +3,23 @@ var repositories = require('../config').repositories,
 
 for(var i in  repositories) {
     
-    repos.push({
-        path: [
-            '<%= pkg.paths.repositories %>'
-        ],
-        repo: repositories[i]
-    });
+    if( typeof repositories[i] === 'string') {
+        repos.push({
+            path: [
+                '<%= pkg.paths.repositories %>'
+            ],
+            repo: repositories[i]
+        });
+    } else {
+        repos.push({
+            path: [
+                '<%= pkg.paths.repositories %>'
+            ],
+            repo: repositories[i].url,
+            branch: repositories[i].branch || null,
+            tag: repositories[i].tag || null
+        });
+    }
     
 }
 
