@@ -39,7 +39,7 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-drive.git',
-            tag: 'v1.0.0'
+            tag: 'v1.0.1'
         }
     ]
     
