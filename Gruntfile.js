@@ -4,7 +4,6 @@ module.exports = function(grunt) {
         pkg: require('./tasks/config'),
         uglify: require('./tasks/uglify/index'),
         cssmin: require('./tasks/cssmin/index'),
-        gitPull: require('./tasks/gitpull/index'),
         clean: require('./tasks/clean/index')
     });
   
