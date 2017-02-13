@@ -15,7 +15,7 @@ module.exports = {
     repositories: [
         {
             url: 'git@vcs:melisa/melisa-app-public.git',
-            tag: 'v1.1.0'
+            tag: 'v1.1.1'
         },
         {
             url: 'git@vcs:melisa/melisa-app-panel.git',
