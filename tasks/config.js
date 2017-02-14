@@ -23,7 +23,7 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-security.git',
-            tag: 'v1.0.1'
+            tag: 'v1.0.2'
         },
         {
             url: 'git@vcs:melisa/melisa-app-sencha.git',
