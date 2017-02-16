@@ -21,6 +21,7 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         cwd: '<%= pkg.paths.repositories %>/' + dirName,
+                        dot: true,
                         src: [
                             '**'
                         ],

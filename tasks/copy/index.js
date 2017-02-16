@@ -2,12 +2,12 @@ module.exports = {
     test: {
         files: [
             {
-                expand: true,
                 cwd: '<%= pkg.paths.repositories %>',
+                dest: '<%= pkg.paths.app %>',
+                expand: true,
                 src: [
                     '**'
-                ],
-                dest: '<%= pkg.paths.app %>'
+                ]
             }
         ]
     }
