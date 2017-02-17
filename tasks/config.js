@@ -31,7 +31,7 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-sencha.git',
-            tag: 'v1.1.0'
+            tag: 'v1.2.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-people.git',
