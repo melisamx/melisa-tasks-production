@@ -19,7 +19,7 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-public.git',
-            tag: 'v1.1.2'
+            tag: 'v1.1.3'
         },
         {
             url: 'git@vcs:melisa/melisa-app-panel.git',
