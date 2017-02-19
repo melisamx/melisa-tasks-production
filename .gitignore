@@ -6,3 +6,4 @@ Homestead.yaml
 .env
 composer.lock
 enviroments/*.js
+applications/*.js
