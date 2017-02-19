@@ -1,9 +1,9 @@
 module.exports = function(grunt) {
     
-    grunt.registerTask('production', 'Production enviroment', function(enviroment) {
+    grunt.registerTask('production', 'Production enviroment', function(application) {
         
-        if( enviroment) {
-            var config = require('../enviroments/' + enviroment),
+        if( application) {
+            var config = require('../applications/' + application),
                 repositories = grunt.config('pkg.repositories');
             
             if( config.addRepositories) {
