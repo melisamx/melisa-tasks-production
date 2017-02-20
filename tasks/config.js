@@ -6,6 +6,8 @@ module.exports = {
         company: 'Melisa'
     },
     
+    enviroment: 'local',
+    
     paths: {
         distribution: 'dist',
         repositories: '<%= pkg.paths.distribution %>/repositories',

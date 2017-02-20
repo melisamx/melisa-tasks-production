@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
     
-    grunt.registerTask('production', 'Production enviroment', function(application) {
+    grunt.registerTask('production', 'Production enviroment', function(application, enviroment) {
         
         if( application) {
             var config = require('../applications/' + application),
@@ -16,12 +16,17 @@ module.exports = function(grunt) {
             
         }
         
+        if( enviroment === 'p') {
+            grunt.config.set('pkg.enviroment', 'production');
+        }
+        
         grunt.task.run([
             'clean:test',
             'repositories:clone',
             'repositories:union',
             'production:javascript',
-            'production:css'
+            'production:css',
+            'enviroment'
         ]);
         
     });
