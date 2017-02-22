@@ -29,7 +29,7 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-events.git',
-            tag: 'v1.0.1'
+            tag: 'v1.1.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-public.git',
@@ -63,6 +63,13 @@ module.exports = {
             url: 'git@vcs:melisa/melisa-app-userdevice.git',
             tag: 'v1.0.0'
         }
-    ]
+    ],
+    
+    server: {
+        showProgress: true,
+        srcBasePath: 'tmp',
+        ignoreErrors: true,
+        readyTimeout: 1800000
+    }
     
 };

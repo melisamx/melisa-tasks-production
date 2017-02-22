@@ -13,6 +13,7 @@ module.exports = function(grunt) {
             }
             
             grunt.config.set('pkg.repositories', repositories);
+            grunt.config.set('pkg.application', application);
             
         }
         
@@ -26,7 +27,11 @@ module.exports = function(grunt) {
             'repositories:union',
             'production:javascript',
             'production:css',
-            'enviroment'
+            'enviroment',
+            'clean:git',
+            'app:compress',
+            'app:upload',
+            'server:descompress'
         ]);
         
     });

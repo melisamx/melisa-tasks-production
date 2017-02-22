@@ -13,6 +13,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-hub');
+    grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-sftp-deploy');
+    grunt.loadNpmTasks('grunt-ssh');
     
     grunt.loadTasks('tasks');
     
