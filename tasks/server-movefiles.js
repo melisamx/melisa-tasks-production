@@ -15,7 +15,11 @@ module.exports = function(grunt) {
             },
             command: [
                 'cd <%= pkg.server.' + enviroment + '.path %>',
-                'mv -f app/* <%= pkg.server.' + enviroment + '.pathSrc %>'
+                
+                /**
+                 * http://unix.stackexchange.com/questions/149965/how-to-copy-merge-two-directories
+                 */                
+                'rsync -avhu app/ <%= pkg.server.' + enviroment + '.pathSrc %>'
             ].join(' && ')
         });
         

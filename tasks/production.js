@@ -30,8 +30,8 @@ module.exports = function(grunt) {
             'enviroment',
             'clean:git',
             'app:compress',
-            'app:upload',
-            'server:descompress'
+//            'app:upload',
+//            'server:descompress'
         ]);
         
     });

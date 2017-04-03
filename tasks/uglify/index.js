@@ -3,7 +3,7 @@ module.exports = {
         report: 'min',
         banner: '/*!\n' + 
             ' * <%= pkg.proyect.name %> <%= pkg.proyect.version %>\n' +
-            ' * Copyright (c) 2014-2015 <%= pkg.proyect.company %>\n' +
+            ' * Copyright (c) 2014-2017 <%= pkg.proyect.company %>\n' +
             ' * <%= grunt.template.today("yyyy-mm-dd hh:mm:ss") %>\n' +
             ' */\n'
     },

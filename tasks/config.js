@@ -17,39 +17,39 @@ module.exports = {
     repositories: [
         {
             url: 'git@vcs:melisa/melisa-kernel.git',
-            tag: 'v1.0.2'
+            tag: 'v2.0.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-core.git',
-            tag: 'v1.0.2'
+            tag: 'v1.2.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-sencha.git',
-            tag: 'v1.2.1'
+            tag: 'v1.4.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-events.git',
-            tag: 'v1.1.0'
+            tag: 'v1.1.2'
         },
         {
             url: 'git@vcs:melisa/melisa-app-public.git',
-            tag: 'v1.1.4'
+            tag: 'v1.2.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-panel.git',
-            tag: 'v1.1.0'
+            tag: 'v1.1.5'
         },
         {
             url: 'git@vcs:melisa/melisa-app-security.git',
-            tag: 'v1.0.4'
+            tag: 'v1.1.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-people.git',
-            tag: 'v1.0.3'
+            tag: 'v1.2.0'
         },        
         {
             url: 'git@vcs:melisa/melisa-app-drive.git',
-            tag: 'v1.0.2'
+            tag: 'v1.1.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-email.git',
@@ -57,11 +57,11 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-tools.git',
-            tag: 'v1.0.0'
+            tag: 'v1.1.1'
         },
         {
             url: 'git@vcs:melisa/melisa-app-userdevice.git',
-            tag: 'v1.0.0'
+            tag: 'v1.1.0'
         }
     ],
     
