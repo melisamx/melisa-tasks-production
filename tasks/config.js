@@ -17,15 +17,15 @@ module.exports = {
     repositories: [
         {
             url: 'git@vcs:melisa/melisa-kernel.git',
-            tag: 'v2.0.0'
+            tag: 'v2.1.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-core.git',
-            tag: 'v1.2.1'
+            tag: 'v1.3.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-sencha.git',
-            tag: 'v1.5.0'
+            tag: 'v1.6.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-events.git',
@@ -37,7 +37,7 @@ module.exports = {
         },
         {
             url: 'git@vcs:melisa/melisa-app-panel.git',
-            tag: 'v1.1.6'
+            tag: 'v1.2.0'
         },
         {
             url: 'git@vcs:melisa/melisa-app-security.git',
@@ -49,7 +49,7 @@ module.exports = {
         },        
         {
             url: 'git@vcs:melisa/melisa-app-drive.git',
-            tag: 'v1.2.0'
+            tag: 'v1.2.1'
         },
         {
             url: 'git@vcs:melisa/melisa-app-email.git',
