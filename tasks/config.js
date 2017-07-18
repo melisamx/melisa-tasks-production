@@ -17,51 +17,59 @@ module.exports = {
     repositories: [
         {
             url: 'git@vcs:melisa/melisa-kernel.git',
-            tag: 'v2.2.0'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-core.git',
-            tag: 'v1.4.0'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-sencha.git',
-            tag: 'v1.8.2'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-events.git',
-            tag: 'v1.1.2'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-public.git',
-            tag: 'v1.2.1'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-panel.git',
-            tag: 'v1.2.0'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-security.git',
-            tag: 'v1.1.0'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-people.git',
-            tag: 'v1.2.1'
+            branch: 'lheredia'
         },        
         {
             url: 'git@vcs:melisa/melisa-app-drive.git',
-            tag: 'v1.3.0'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-email.git',
-            tag: 'v1.0.0'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-tools.git',
-            tag: 'v1.1.1'
+            branch: 'lheredia'
         },
         {
             url: 'git@vcs:melisa/melisa-app-userdevice.git',
-            tag: 'v1.1.0'
+            branch: 'lheredia'
+        },
+        {
+            url: 'git@vcs:melisa/melisa-app-forge.git',
+            branch: 'lheredia'
+        },
+        {
+            url: 'git@vcs:melisa/melisa-third-party-frontend.git',
+            branch: 'lheredia'
         }
     ],
     
