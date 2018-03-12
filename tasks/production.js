@@ -19,6 +19,8 @@ module.exports = function(grunt) {
         
         if( enviroment === 'p') {
             grunt.config.set('pkg.enviroment', 'production');
+        } else {
+            grunt.config.set('pkg.enviroment', enviroment);
         }
         
         grunt.task.run([
