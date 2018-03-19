@@ -31,7 +31,7 @@ module.exports = function(grunt) {
             'production:css',
             'enviroment',
             'clean:git',
-            'app:compress',
+//            'app:compress',
 //            'app:upload',
 //            'server:descompress'
         ]);
